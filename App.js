@@ -1,4 +1,6 @@
-export default function App() {
+import React from 'react';
+
+function App() {
     return <ConnectAtoA />;
   }
 
@@ -32,3 +34,5 @@ function ConnectAtoA() {
         </div>
     );
 }
+
+export default App
